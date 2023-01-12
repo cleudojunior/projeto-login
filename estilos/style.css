@@ -29,11 +29,15 @@ main {
 }
 
 section#login {
+    overflow: hidden;
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div#foto {
@@ -51,35 +55,30 @@ div#form {
 }
 
 h1 {
+    padding: 5px;
     text-align: center;
-    padding: 10px;
 }
 
 p {
-    padding: 0px 5px 0px 5px;
     font-size: 0.8em;
+    margin-bottom: 5px;
 }
 
 div.dados {
-    margin: auto;
-    width: 90%;
     margin-bottom: 5px;
-    padding: 5px 0px;
+    padding: 2px 0px;
     border-radius: 10px;
     background-color: #5f2c82;
 }
-
-
 
 label > span {
     color: #ffffff;
 }
 
 div.dados > input {
-    width: 80%;
+    padding: 8px 17px 8px 1px;
     font-size: 1em;
     background-color: #9ad6d5;
-    padding: 10px 18px 10px 1px;
     border: none;
     border-radius: 10px;
 }
@@ -88,11 +87,13 @@ div.dados > input:focus {
     background-color: #ffffff;
 }
 
+div#entrar {
+    height: 40px;
+}
+
 div#entrar > input {
-    display: block;
-    margin: auto;
+    width: 100%;
     padding: 10px ;
-    width: 90%;
     border-radius: 5px;
     border: none;
     font-size: 1em;
@@ -107,9 +108,7 @@ div#entrar > input:hover {
 
 a {
     display: block;
-    margin: auto;
     margin-top: 5px;
-    width: 90%;
     padding: 10px 0px;
     border-radius: 5px;
     border: 1px solid #49a09d;
