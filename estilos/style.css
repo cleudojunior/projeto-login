@@ -54,14 +54,13 @@ div#form {
     padding: 10px;
 }
 
-h1 {
-    padding: 5px;
+div#form > h1 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
-p {
+div#form > p {
     font-size: 0.8em;
-    margin-bottom: 5px;
 }
 
 div.dados {
@@ -76,6 +75,7 @@ label > span {
 }
 
 div.dados > input {
+    width: 90%;
     padding: 8px 17px 8px 1px;
     font-size: 1em;
     background-color: #9ad6d5;
