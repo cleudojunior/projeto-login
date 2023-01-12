@@ -92,7 +92,7 @@ div.dados > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12.5px);
+    transform: translateY(-13px);
 }
 
 div.dados > input:focus-within {

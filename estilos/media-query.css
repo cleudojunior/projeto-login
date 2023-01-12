@@ -21,6 +21,10 @@
         width: 70%;
     }
 
+    div.dados > input {
+        transform: translateY(-12px);
+    }
+
 }
 
 @media screen and (min-width: 992px) {
